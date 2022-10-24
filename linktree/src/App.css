@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 :root {
   --body-background: #FFFFFF;
   --button-background: #EAECF0;
@@ -9,18 +10,40 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 .linktree{
   background-color: var(--body-background);
   color: var(--text-color);
+  position: relative;
+  padding-top: 2vh;
 }
 .profile{
-  width: 30%;
-  margin: ;
+  width: 20%;
+  margin: 3vh 40% 0;
+  text-align: center;
 }
 .profile img{
   border-radius: 50%;
-  width: 30%;
+  width: 50%;
+}
+.profile h3{
+  padding-top: 2vh;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 30px;
+}
+.slack{
+  display: none;
+}
+.share{
+  position: absolute;
+  top: 2vh;
+  right: 15%;
+  width: 10%;
+}
+.share img{
+  width: 50%;
 }
 .links{
   padding-top: 9vh;
@@ -30,29 +53,50 @@
   gap: 3vh;
 }
 .links a{
-  height: 13vh;
+  height: 12vh;
   text-align: center;
   color: var(--text-color);
   text-decoration: none;
   background-color: var(--button-background);
   border-radius: 8px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 28px;
+  padding-top: 3vh;
 }
 .links a:hover{
 background-color: var(--hover-color);
 }
 .git-slack{
   padding-top: 3vh;
-  margin: 0 45%;
-  width: 10%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 5vh 40% 10vh;
+  width: 20%;
   display: flex;
   gap: 5%;
 }
+.git-slack a{
+  text-align: center;
+  width: 10%;
+}
+.linktree hr{
+  color: var(--footer-text);
+  opacity: 0.3;
+}
 footer{
   padding-top: 5vh;
-  margin: 0 7%;
+  margin: 0 7% 3vh;
   display: flex;
   justify-content: space-between;
 }
 footer p{
   color: var(--footer-text);
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 24px;
+}
+footer a{
+  width: 10%;
 }
