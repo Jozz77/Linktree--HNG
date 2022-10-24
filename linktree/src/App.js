@@ -5,6 +5,7 @@ import slack from './img/slack.png'
 import zuri from './img/Zuri-Internship.svg'
 import I4G from './img/I4G.svg'
 import share from './img/share (2).png'
+import share_mobile from './img/share-mobile.png'
 
 function App() {
   return (
@@ -20,12 +21,17 @@ function App() {
         <img src={share} alt="Logo" id="profile__img" /> 
       </div>
 
+      <div className="share-mobile">
+        <img src={share_mobile} alt="Logo" id="profile__img" /> 
+      </div>
+
       <div className="links">
       <a href="https://twitter.com/JonathanOnyedi3" target="_blank" id="twitter">Twitter Link</a>
-      <a href="" id="btn_zuri" target="_blank">Zuri Team</a>
-      <a href="" id="books" target="_blank">Zuri Books</a>
-      <a href="" id="pitch" target="_blank">Background Check for Coders</a>
-      <a href="" id="book_design" target="_blank">Design Books</a>
+      <a href="https://training.zuri.team/" id="btn_zuri" target="_blank">Zuri Team</a>
+      <a href="http://books.zuri.team/" id="books" target="_blank">Zuri Books</a>
+      <a href="http://books.zuri.team/" id="book_python" target="_blank">Python Books</a>
+      <a href="https://background.zuri.team/" id="pitch" target="_blank">Background Check for Coders</a>
+      <a href="https://books.zuri.team/design-rules" id="book_design" target="_blank">Design Books</a>
       </div>
 
       <div className="git-slack">
