@@ -1,0 +1,58 @@
+:root {
+  --body-background: #FFFFFF;
+  --button-background: #EAECF0;
+  --text-color: #101828;
+  --footer-text: #667085;
+  --hover-color: #D0D5DD;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.linktree{
+  background-color: var(--body-background);
+  color: var(--text-color);
+}
+.profile{
+  width: 30%;
+  margin: ;
+}
+.profile img{
+  border-radius: 50%;
+  width: 30%;
+}
+.links{
+  padding-top: 9vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10%;
+  gap: 3vh;
+}
+.links a{
+  height: 13vh;
+  text-align: center;
+  color: var(--text-color);
+  text-decoration: none;
+  background-color: var(--button-background);
+  border-radius: 8px;
+}
+.links a:hover{
+background-color: var(--hover-color);
+}
+.git-slack{
+  padding-top: 3vh;
+  margin: 0 45%;
+  width: 10%;
+  display: flex;
+  gap: 5%;
+}
+footer{
+  padding-top: 5vh;
+  margin: 0 7%;
+  display: flex;
+  justify-content: space-between;
+}
+footer p{
+  color: var(--footer-text);
+}
