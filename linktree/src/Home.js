@@ -3,7 +3,7 @@ import './App.css';
 import jo from './img/Jonathan.jfif'
 import github from './img/github.png'
 import slack from './img/slack.png'
-import zuri from './img/Zuri-Internship.svg'
+import zuri from './img/Zuri.Internship_Logo.svg'
 import I4G from './img/I4G.svg'
 import share from './img/share (2).png'
 import share_mobile from './img/share-mobile.png'
@@ -30,7 +30,7 @@ export default function Home() {
       <a href="https://twitter.com/JonathanOnyedi3" target="_blank" id="twitter">Twitter Link</a>
       <a href="https://training.zuri.team/" id="btn_zuri" target="_blank">Zuri Team</a>
       <a href="http://books.zuri.team/" id="books" target="_blank">Zuri Books</a>
-      <a href="http://books.zuri.team/" id="book_python" target="_blank">Python Books</a>
+      <a href="https://books.zuri.team/python-for-beginners?ref_id=<Jo_Na_Than>" id="book_python" target="_blank">Python Books</a>
       <a href="https://background.zuri.team/" id="pitch" target="_blank">Background Check for Coders</a>
       <a href="https://books.zuri.team/design-rules" id="book_design" target="_blank">Design Books</a>
       </div>

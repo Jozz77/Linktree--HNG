@@ -264,13 +264,42 @@ footer a img{
   background-color: var(--hover-color);
   }
   .git-slack{
-    display: none;
+    padding-top: 7vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 1vh 30% 5vh;
+    width: 40%;
+    display: flex;
+    gap: 20%;
+  }
+  .git-slack a{
+    text-align: center;
+    width: 10%;
   }
   .linktree hr{
- display: none;
+    color: var(--footer-text);
+    opacity: 0.3;
+    margin-top: 10vh;
   }
   footer{
-   display: none;
+    padding-top: 5vh;
+    margin: 0 5% 3vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+  }
+  footer p{
+    color: var(--footer-text);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+  }
+  footer a{
+    width: 100%;
+  }
+  footer a img{
+    width: 40%;
   }
 }
 /* media query 3 */
@@ -315,6 +344,12 @@ footer a img{
     font-size: 1rem;
     line-height: 28px;
     padding-top: 3vh;
+  }
+  footer p{
+    color: var(--footer-text);
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 24px;
   }
 }
 @media screen and (max-width: 300px) {
