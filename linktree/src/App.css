@@ -246,7 +246,7 @@ footer a img{
     display: flex;
     flex-direction: column;
     margin: 0 10%;
-    gap: 2vh;
+    gap: 5vh;
   }
   .links a{
     height: 9vh;
@@ -271,7 +271,7 @@ footer a img{
     margin: 1vh 30% 5vh;
     width: 40%;
     display: flex;
-    gap: 20%;
+    gap: 30%;
   }
   .git-slack a{
     text-align: center;
@@ -287,7 +287,7 @@ footer a img{
     margin: 0 5% 3vh;
     display: flex;
     flex-direction: column;
-    gap: 2vh;
+    gap: 5vh;
   }
   footer p{
     color: var(--footer-text);
