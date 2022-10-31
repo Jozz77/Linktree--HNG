@@ -261,7 +261,7 @@ footer a img{
     padding-top: 3vh;
   }
   .links a:hover{
-  background-color: var(--hover-color);
+background-color: var(--hover-color);
   }
   .git-slack{
     padding-top: 7vh;
