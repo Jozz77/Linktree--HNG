@@ -8,6 +8,7 @@
   --label-color: #344054;
   --span-color: #475467;
   --submit-color: #1570EF;
+  --submit-hover: #B2DDFF;
 }
 *{
     margin: 0;
@@ -65,6 +66,10 @@ label{
     padding: 0 3%;
     color: var(--footer-text);
 }
+#first-name:focus, #last-name:focus, #email:focus{
+    border: 2px solid var(--submit-color);
+   
+}
 #email{
     margin-bottom: 3vh;
 }
@@ -73,6 +78,9 @@ label{
     padding: 1vh 3% 0;
     margin-top: 1vh;
     margin-bottom: 3vh;
+}
+#message:focus{
+    box-shadow: 0px 2px 8px var(--submit-color);
 }
 .check-span{
     display: flex;
@@ -90,7 +98,6 @@ form span{
 #checkbox{
     width: 3%;
     height: 4vh;
-    accent-color: var(--body-background);
     position: absolute;
     top: 0;
 }
@@ -107,6 +114,9 @@ form span{
     margin-top: 3vh;
     cursor: pointer;
 
+}
+#btn__submit:hover{
+    background-color: var(--submit-hover);
 }
 @media screen and (min-width: 871px) and (max-width: 1170px){
     .contact{

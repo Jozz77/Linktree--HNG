@@ -10,7 +10,7 @@ function App() {
      <BrowserRouter>
       <Routes>
         <Route path="/Linktree--HNG/" element={<Home />} />
-        <Route path="/Linktree--HNG/contact" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
      </BrowserRouter>
    </div>
