@@ -7,6 +7,7 @@ import zuri from './img/Zuri.Internship_Logo.svg'
 import I4G from './img/I4G.svg'
 import share from './img/share (2).png'
 import share_mobile from './img/share-mobile.png'
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -32,7 +33,8 @@ export default function Home() {
       <a href="http://books.zuri.team/" id="books" target="_blank">Zuri Books</a>
       <a href="https://books.zuri.team/python-for-beginners?ref_id=<Jo_Na_Than>" id="book__python" target="_blank">Python Books</a>
       <a href="https://background.zuri.team" id="pitch" target="_blank">Background Check for Coders</a>
-      <a href="https://books.zuri.team/design-rules" id="book__design" target="_blank">Design Books</a>
+      <Link to="/contact" className='contact-me'>Contact</Link>
+
       </div>
 
       <div className="git-slack">

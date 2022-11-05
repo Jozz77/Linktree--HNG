@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+:root {
+  --body-background: #FFFFFF;
+  --button-background: #EAECF0;
+  --text-color: #101828;
+  --footer-text: #667085;
+  --hover-color: #D0D5DD;
+  --label-color: #344054;
+  --span-color: #475467;
+  --submit-color: #1570EF;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
+  }
+.contact{
+    width: 50%;
+    margin: 10vh 25% 0;
+}
+.first-section{
+    padding-bottom: 6vh;
+}
+.first-section h1{
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 44px;
+    padding-bottom: 1vh;
+}
+.first-section p{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 30px;
+    color: var(--span-color);
+}
+#first-name, #last-name, #email, #message, #btn__submit{
+    width: 100%;
+}
+.first-inputs{
+    display: flex;
+    gap: 5%;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+}
+form{
+    margin-bottom: 20vh;
+}
+label{
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 28px;
+    color: var(--label-color);
+}
+#first-name, #last-name, #email, #message{
+    border: 1px solid var(--hover-color);
+    outline: 1px solid var(--hover-color);
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    height: 7vh;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 24px;
+    padding: 0 3%;
+    color: var(--footer-text);
+}
+#email{
+    margin-bottom: 3vh;
+}
+#message{
+    height: 21vh;
+    padding: 1vh 3% 0;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+}
+.check-span{
+    display: flex;
+    gap: 2%;
+    position: relative;
+    margin-bottom: 3vh;
+}
+form span{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 24px;
+    color: var(--span-color);
+    margin-left: 5%;
+}
+#checkbox{
+    width: 3%;
+    height: 4vh;
+    accent-color: var(--body-background);
+    position: absolute;
+    top: 0;
+}
+#btn__submit{
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    background-color: var(--submit-color);
+    border-radius: 8px;
+    height: 8vh;
+    color: var(--body-background);
+    border: 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 24px;
+    margin-top: 3vh;
+    cursor: pointer;
+
+}
+@media screen and (min-width: 871px) and (max-width: 1170px){
+    .contact{
+        width: 60%;
+        margin: 10vh 20% 0;
+    }
+    .first-section h1{
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 44px;
+        padding-bottom: 1vh;
+    }
+    .first-section p{
+        font-weight: 400;
+        font-size: 1.1rem;
+        line-height: 30px;
+        color: var(--span-color);
+    }
+    #first-name, #last-name, #email, #message{
+        border: 1px solid var(--hover-color);
+        outline: 1px solid var(--hover-color);
+        border-radius: 8px;
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+        height: 6vh;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 24px;
+        padding: 0 3%;
+        color: var(--footer-text);
+    }
+    #message{
+        height: 18vh;
+        padding: 1vh 3% 0;
+        margin-top: 1vh;
+        margin-bottom: 3vh;
+    }
+    form span{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 24px;
+        color: var(--span-color);
+        margin-left: 5%;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 870px){
+    .contact{
+        width: 70%;
+        margin: 10vh 15% 0;
+    }
+    .first-section h1{
+        font-weight: 600;
+        font-size: 1.9rem;
+        line-height: 44px;
+        padding-bottom: 1vh;
+    }
+    .first-section p{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 30px;
+        color: var(--span-color);
+    }
+    #first-name, #last-name, #email, #message{
+        border: 1px solid var(--hover-color);
+        outline: 1px solid var(--hover-color);
+        border-radius: 8px;
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+        height: 6vh;
+        font-weight: 400;
+        font-size: 0.8rem;
+        line-height: 24px;
+        padding: 0 3%;
+        color: var(--footer-text);
+    }
+    #message{
+        height: 18vh;
+        padding: 1vh 3% 0;
+        margin-top: 1vh;
+        margin-bottom: 3vh;
+    }
+    form span{
+        font-weight: 400;
+        font-size: 0.8rem;
+        line-height: 24px;
+        color: var(--span-color);
+        margin-left: 5%;
+    }
+    label{
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 28px;
+        color: var(--label-color);
+    }
+    #btn__submit{
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+        background-color: var(--submit-color);
+        border-radius: 8px;
+        height: 7vh;
+        color: var(--body-background);
+        border: 0;
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 24px;
+        margin-top: 3vh;
+        cursor: pointer;
+    
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 700px){
+    .contact{
+        width: 90%;
+        margin: 10vh 5% 0;
+    }
+    .first-section{
+        padding-bottom: 6vh;
+    }
+    .first-section h1{
+        font-weight: 600;
+        font-size: 1.8rem;
+        line-height: 44px;
+        padding-bottom: 1vh;
+    }
+    .first-section p{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 30px;
+        color: var(--span-color);
+    }
+    #first-name, #last-name, #email, #message, #btn__submit{
+        width: 100%;
+    }
+    .first-inputs{
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+        justify-content: space-between;
+        margin-bottom: 3vh;
+    }
+    form{
+        margin-bottom: 15vh;
+    }
+    label{
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 28px;
+        color: var(--label-color);
+    }
+    #first-name, #last-name, #email, #message{
+        border: 1px solid var(--hover-color);
+        outline: 1px solid var(--hover-color);
+        border-radius: 8px;
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+        height: 7vh;
+        font-weight: 400;
+        font-size: 0.9rem;
+        line-height: 24px;
+        padding: 0 3%;
+        color: var(--footer-text);
+    }
+    #email{
+        margin-bottom: 3vh;
+    }
+    #message{
+        height: 21vh;
+        padding: 1vh 3% 0;
+        margin-top: 1vh;
+        margin-bottom: 3vh;
+    }
+    .check-span{
+        display: flex;
+        gap: 2%;
+        position: relative;
+        margin-bottom: 3vh;
+    }
+    form span{
+        font-weight: 400;
+        font-size: 0.9rem;
+        line-height: 24px;
+        color: var(--span-color);
+        margin-left: 8%;
+    }
+    #checkbox{
+        width: 5%;
+        height: 6vh;
+        accent-color: var(--body-background);
+        position: absolute;
+        top: 0;
+    }
+    #btn__submit{
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+        background-color: var(--submit-color);
+        border-radius: 8px;
+        height: 8vh;
+        color: var(--body-background);
+        border: 0;
+        font-weight: 600;
+        font-size: 0.9rem;
+        line-height: 24px;
+        margin-top: 3vh;
+        cursor: pointer;
+    
+    }
+}
