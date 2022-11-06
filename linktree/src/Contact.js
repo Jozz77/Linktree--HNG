@@ -19,11 +19,11 @@ export default function
                 <div className='first-inputs'>
                     <div>
                         <label>First Name</label>
-                        <input type="text" placeholder='Enter your first name' id='first-name' required />
+                        <input type="text" placeholder='Enter your first name' id='first_name' required />
                     </div>
                     <div className='last-name'>
                         <label>Last Name</label>
-                        <input type="text" placeholder='Enter your last name' id='last-name' required />
+                        <input type="text" placeholder='Enter your last name' id='last_name' required />
                     </div>
                 </div>
 
