@@ -36,7 +36,7 @@
     line-height: 30px;
     color: var(--span-color);
 }
-#first-name, #last-name, #email, #message, #btn__submit{
+#first_name, #last_name, #email, #message, #btn__submit{
     width: 100%;
 }
 .first-inputs{
@@ -54,7 +54,7 @@ label{
     line-height: 28px;
     color: var(--label-color);
 }
-#first-name, #last-name, #email, #message{
+#first_name, #last_name, #email, #message{
     border: 1px solid var(--hover-color);
     outline: 1px solid var(--hover-color);
     border-radius: 8px;
@@ -66,7 +66,7 @@ label{
     padding: 0 3%;
     color: var(--footer-text);
 }
-#first-name:focus, #last-name:focus, #email:focus{
+#first_name:focus, #last_name:focus, #email:focus{
     border: 2px solid var(--submit-color);
    
 }
@@ -135,7 +135,7 @@ form span{
         line-height: 30px;
         color: var(--span-color);
     }
-    #first-name, #last-name, #email, #message{
+    #first_name, #last_name, #email, #message{
         border: 1px solid var(--hover-color);
         outline: 1px solid var(--hover-color);
         border-radius: 8px;
@@ -178,7 +178,7 @@ form span{
         line-height: 30px;
         color: var(--span-color);
     }
-    #first-name, #last-name, #email, #message{
+    #first_name, #last_name, #email, #message{
         border: 1px solid var(--hover-color);
         outline: 1px solid var(--hover-color);
         border-radius: 8px;
@@ -244,7 +244,7 @@ form span{
         line-height: 30px;
         color: var(--span-color);
     }
-    #first-name, #last-name, #email, #message, #btn__submit{
+    #first_name, #last_name, #email, #message, #btn__submit{
         width: 100%;
     }
     .first-inputs{
@@ -263,7 +263,7 @@ form span{
         line-height: 28px;
         color: var(--label-color);
     }
-    #first-name, #last-name, #email, #message{
+    #first_name, #last_name, #email, #message{
         border: 1px solid var(--hover-color);
         outline: 1px solid var(--hover-color);
         border-radius: 8px;
