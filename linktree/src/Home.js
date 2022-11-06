@@ -33,7 +33,7 @@ export default function Home() {
       <a href="http://books.zuri.team/" id="books" target="_blank">Zuri Books</a>
       <a href="https://books.zuri.team/python-for-beginners?ref_id=<Jo_Na_Than>" id="book__python" target="_blank">Python Books</a>
       <a href="https://background.zuri.team" id="pitch" target="_blank">Background Check for Coders</a>
-      <Link to="/contact" className='contact-me'>Contact</Link>
+      <Link to="/contact" className='contact-me'>Contact Me</Link>
 
       </div>
 
