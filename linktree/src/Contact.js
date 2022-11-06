@@ -7,6 +7,7 @@ import I4G from './img/I4G.svg'
 
 export default function 
 () {
+    const name = "Jo_Na_Than"
   return (
     <body>
         <section className='contact'>
@@ -36,7 +37,7 @@ export default function
 
                <div className='check-span'>
                     <input type="checkbox" id='checkbox'  required />
-                    <span>You agree to providing your data to (name) who may contact you.</span>
+                    <span>You agree to providing your data to {name} who may contact you.</span>
                </div>
                 <input type="submit" id='btn__submit' value="Send message" />
             </form>
