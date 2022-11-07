@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Linktree--HNG/static/css/main.1aa2ff35.css",
+    "main.css": "/Linktree--HNG/static/css/main.4ae6bc94.css",
     "main.js": "/Linktree--HNG/static/js/main.a648aba3.js",
     "static/media/I4G.svg": "/Linktree--HNG/static/media/I4G.601ff0479d970c740e8b7d7ba7821548.svg",
     "static/media/Jonathan.jfif": "/Linktree--HNG/static/media/Jonathan.2935fcd188be2fc00933.jfif",
     "static/media/Zuri.Internship_Logo.svg": "/Linktree--HNG/static/media/Zuri.Internship_Logo.4934edca4a0f76123806b54616117aa3.svg",
     "index.html": "/Linktree--HNG/index.html",
-    "main.1aa2ff35.css.map": "/Linktree--HNG/static/css/main.1aa2ff35.css.map",
+    "main.4ae6bc94.css.map": "/Linktree--HNG/static/css/main.4ae6bc94.css.map",
     "main.a648aba3.js.map": "/Linktree--HNG/static/js/main.a648aba3.js.map"
   },
   "entrypoints": [
-    "static/css/main.1aa2ff35.css",
+    "static/css/main.4ae6bc94.css",
     "static/js/main.a648aba3.js"
   ]
 }
