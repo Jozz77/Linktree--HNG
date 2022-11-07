@@ -19,20 +19,20 @@ export default function
             <form>
                 <div className='first-inputs'>
                     <div>
-                        <label for="first_name">First Name</label>
+                        <label htmlFor="first_name">First Name</label>
                         <input type="text" placeholder='Enter your first name' id='first_name' required />
                     </div>
                     <div className='last-name'>
-                        <label for="last_name">Last Name</label>
+                        <label htmlFor="last_name">Last Name</label>
                         <input type="text" placeholder='Enter your last name' id='last_name' required />
                     </div>
                 </div>
 
-                <label for="email">Email</label>
+                <label htmlFor="email">Email</label>
                 <input type="email" placeholder='yourname@email.com' id='email' required />
 
                 
-                <label for="message">Message</label>
+                <label htmlFor="message">Message</label>
                 <textarea placeholder="Send me a message and I'll reply you as soon as possible..." id='message' required ></textarea>
 
                <div className='check-span'>
